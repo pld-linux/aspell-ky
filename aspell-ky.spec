@@ -10,6 +10,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/ky/aspell6-ky-%{version}-%{subv}.tar
 # Source0-md5:	83ed490464521361867546f9ad4cbaf2
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.60.0
+BuildRequires:	which
 Requires:	aspell >= 3:0.60.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Słownik kirgiski dla aspella
 Name:		aspell-ky
 Version:	0.01
 %define	subv	0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/Text
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/ky/aspell6-ky-%{version}-%{subv}.tar.bz2

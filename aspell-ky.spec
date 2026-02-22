@@ -12,6 +12,7 @@ URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.60.0
 BuildRequires:	which
 Requires:	aspell >= 3:0.60.0
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -41,8 +42,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Copyright README
-%{_libdir}/aspell/kirghiz.alias
-%{_libdir}/aspell/ky.*
+%{_prefix}/lib/aspell/kirghiz.alias
+%{_prefix}/lib/aspell/ky.*
 %{_datadir}/aspell/ky.dat
 %{_datadir}/aspell/ky_affix.dat
 %{_datadir}/aspell/l-ky.*
